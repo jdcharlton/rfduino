@@ -32,6 +32,25 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ===============================================
+//________________________________________________________________________
+//
+// Copyright (c) 2016 Charlton Computer Consulting.
+//
+// File Name:  MPU9250.h
+//
+// Description: Adapted to MPU9250 and RFDuino, added separate init functions
+// for mpu 9250 and magnetometer
+//
+// Engineer: JDC (CCC), 15-Sep-2016
+//
+// History:
+//________________________________________________________________________
+//  $Log: MPU9250.h,v $
+//
+// Notes:
+//
+//________________________________________________________________________
+
 */
 
 #ifndef _MPU9250_H_
