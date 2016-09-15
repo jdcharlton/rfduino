@@ -9,7 +9,24 @@
 // NOTE: THIS IS ONLY A PARIAL RELEASE. THIS DEVICE CLASS IS CURRENTLY UNDERGOING ACTIVE
 // DEVELOPMENT AND IS STILL MISSING SOME IMPORTANT FEATURES. PLEASE KEEP THIS IN MIND IF
 // YOU DECIDE TO USE THIS PARTICULAR CODE FOR ANYTHING.
-
+//________________________________________________________________________
+//
+// Copyright (c) 2016 Charlton Computer Consulting (CCC).
+//
+// File Name:  MPU9250.h
+//
+// Description: Adapted to MPU9250 and RFDuino, added separate init functions
+// for mpu 9250 and magnetometer
+//
+// Engineer: John D Charlton (CCC), 15-Sep-2016
+//
+// History:
+//________________________________________________________________________
+//  $Log: MPU9250.h,v $
+//
+// Notes:
+//
+//________________________________________________________________________
 /* ============================================
 I2Cdev device library code is placed under the MIT license
 Copyright (c) 2012 Jeff Rowberg
@@ -32,25 +49,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ===============================================
-//________________________________________________________________________
-//
-// Copyright (c) 2016 Charlton Computer Consulting.
-//
-// File Name:  MPU9250.h
-//
-// Description: Adapted to MPU9250 and RFDuino, added separate init functions
-// for mpu 9250 and magnetometer
-//
-// Engineer: JDC (CCC), 15-Sep-2016
-//
-// History:
-//________________________________________________________________________
-//  $Log: MPU9250.h,v $
-//
-// Notes:
-//
-//________________________________________________________________________
-
 */
 
 #ifndef _MPU9250_H_
